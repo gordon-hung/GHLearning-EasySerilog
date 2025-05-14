@@ -1,5 +1,6 @@
 # GHLearning-EasySerilog
-[![GitHub Actions GHLearning-EasySerilog](https://github.com/gordon-hung/GHLearning-EasySerilog/actions/workflows/dotnet.yml/badge.svg)](https://github.com/gordon-hung/GHLearning-EasySerilog/actions/workflows/dotnet.yml) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/gordon-hung/GHLearning-EasySentry)
+[![GitHub Actions GHLearning-EasySerilog](https://github.com/gordon-hung/GHLearning-EasySerilog/actions/workflows/dotnet.yml/badge.svg)](https://github.com/gordon-hung/GHLearning-EasySerilog/actions/workflows/dotnet.yml) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/gordon-hung/GHLearning-EasySerilog)
+
 ## Purpose and Scope
 GHLearning-EasySerilog is a demonstration repository that showcases the integration of Serilog - a powerful structured logging library for .NET - with various logging outputs and monitoring systems. The repository provides several sample applications, each demonstrating a different integration pattern with Serilog. This document provides a high-level overview of the system architecture, components, and the specific use cases demonstrated by each sample application.
 
