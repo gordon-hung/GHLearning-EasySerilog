@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasySerilog.WebApi", "src\GHLearning.EasySerilog.WebApi\GHLearning.EasySerilog.WebApi.csproj", "{7CDAD3FE-47DE-4A26-A315-8E42DABC7C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasySerilog.AppConsole", "src\GHLearning.EasySerilog.AppConsole\GHLearning.EasySerilog.AppConsole.csproj", "{FBCA5140-7540-44AC-ADCD-26BE83AF89F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasySerilog.AppSeq", "src\GHLearning.EasySerilog.AppSeq\GHLearning.EasySerilog.AppSeq.csproj", "{0B224714-2E65-4980-840E-97C63458AA5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasySerilog.AppOpenTelemetry", "src\GHLearning.EasySerilog.AppOpenTelemetry\GHLearning.EasySerilog.AppOpenTelemetry.csproj", "{543712ED-7D12-4B66-807E-404FE48590C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasySerilog.AppGoogleChat", "src\GHLearning.EasySerilog.AppGoogleChat\GHLearning.EasySerilog.AppGoogleChat.csproj", "{F8DFE2A9-8645-40ED-91B0-DB366E416C87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CDAD3FE-47DE-4A26-A315-8E42DABC7C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDAD3FE-47DE-4A26-A315-8E42DABC7C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDAD3FE-47DE-4A26-A315-8E42DABC7C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDAD3FE-47DE-4A26-A315-8E42DABC7C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCA5140-7540-44AC-ADCD-26BE83AF89F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCA5140-7540-44AC-ADCD-26BE83AF89F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCA5140-7540-44AC-ADCD-26BE83AF89F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCA5140-7540-44AC-ADCD-26BE83AF89F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B224714-2E65-4980-840E-97C63458AA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B224714-2E65-4980-840E-97C63458AA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B224714-2E65-4980-840E-97C63458AA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B224714-2E65-4980-840E-97C63458AA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543712ED-7D12-4B66-807E-404FE48590C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543712ED-7D12-4B66-807E-404FE48590C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543712ED-7D12-4B66-807E-404FE48590C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543712ED-7D12-4B66-807E-404FE48590C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DFE2A9-8645-40ED-91B0-DB366E416C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DFE2A9-8645-40ED-91B0-DB366E416C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DFE2A9-8645-40ED-91B0-DB366E416C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DFE2A9-8645-40ED-91B0-DB366E416C87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CDAD3FE-47DE-4A26-A315-8E42DABC7C2B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FBCA5140-7540-44AC-ADCD-26BE83AF89F1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0B224714-2E65-4980-840E-97C63458AA5A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{543712ED-7D12-4B66-807E-404FE48590C7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F8DFE2A9-8645-40ED-91B0-DB366E416C87} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23C202CA-C8B7-4ED9-8D28-3A0708F735CE}
+	EndGlobalSection
+EndGlobal

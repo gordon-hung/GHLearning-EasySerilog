@@ -1,0 +1,6 @@
+@GHLearning.EasySerilog.AppSeq_HostAddress = http://localhost:5203
+
+GET {{GHLearning.EasySerilog.AppSeq_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
